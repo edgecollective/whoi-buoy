@@ -46,3 +46,4 @@ getting the text:
 >>> oled.show()
 >>> 
 
+boost has quiescent of 1 mA

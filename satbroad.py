@@ -1,9 +1,9 @@
 # CircuitPython Demo - USB/Serial echo
 
-import board
-import busio
-import digitalio
-import time
+import board,busio,digitalio,time
+#import busio
+#import digitalio
+#import time
 
 led = digitalio.DigitalInOut(board.D13)
 led.direction = digitalio.Direction.OUTPUT
